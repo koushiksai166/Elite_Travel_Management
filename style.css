@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color:greenyellow;
+    padding-top:20px;
+}
+table{
+    width: 100%;
+    border: 2px solid blanchedalmond;
+    padding: 5px;
+    border-radius: 5px;
+}
+table tr{
+    background-color: skyblue;
+}
+.box h1{
+    width: 800px;
+    height: 40px;
+    margin-top: 0;
+    color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+#submit{
+    width: 130px;
+    color: brown;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
